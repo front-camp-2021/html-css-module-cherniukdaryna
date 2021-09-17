@@ -1,0 +1,10 @@
+.catalog {
+    width: 1260px;
+    max-height: 1518px;
+    margin: 0 auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
