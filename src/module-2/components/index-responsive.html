@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <link rel="stylesheet" type="text/css" href="index-style-card-responsive.css">
+        <link rel="stylesheet" type="text/css" href="index-cards-list-responsive.css">
+        <link rel="stylesheet" type="text/css" href="header.css">
+        <link rel="stylesheet" type="text/css" href="nav.css">
+        <link rel="stylesheet" type="text/css" href="filters.css">
+        <link rel="stylesheet" type="text/css" href="grid.css">
+        <link rel="stylesheet" type="text/css" href="footer.css">
+        <link rel="stylesheet" type="text/css" href="search.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap');
+        </style>
+    </head>
+    <body>
+       
+        <header>
+            
+                <img class="logo-header"src="img/logo.png"/> 
+                <a class="title" href="#">Online Store</a>
+                      
+        </header>
+
+        <nav>
+            <img src="img/3844435_home_house_icon.svg"/>
+            <div>
+                <img class="arrow" src="img/4829859_arrow_next_right_icon.svg" /> 
+                <a class="nav-top" href="#">eCommerce</a>
+                <img class="arrow" src="img/4829859_arrow_next_right_icon.svg" />
+                <a class="nav-top" href="#">Electronics</a> 
+            </div>
+        </nav>
+
+        <div class="all-content">
+
+            <section class="filters">
+
+                <div class="filters-header">
+                    Filtres
+                    <a class="back" href="#"><img class="back-arrow" src="img/4829860_arrow_back_left_icon.svg" /></a>
+                </div>
+
+                <div class="filters-nav">
+
+                    <b>Multi Range</b>
+                    <form action="" method="GET" name="multi-range">
+                        
+                        <input type="radio" id="first" name="first"/> 
+                            <label for="first"> $10</label><br>
+                        <input type="radio" id="second" name="second"/> 
+                            <label for="second"> $10-$100</label><br>
+                        <input type="radio" id="third" name="third"/> 
+                            <label for="third"> $100-$500</label><br>
+                        <input type="radio" id="fourth" name="fourth"/> 
+                            <label for="fourth">$500</label><br>
+                        <input type="radio" id="all" name="all"/> 
+                            <label for="all"> All</label><br>
+                    </form>
+
+                    <img class="line" src="img/Divider.png" /><br>
+
+                    <b>Category</b>
+                    <form action="" method="GET" name="category">
+                        <div>
+                            <input type="checkbox" id="cell" name="categorie" />
+                                <label for="cell"> Cell Phones</label><br>
+                            <input type="checkbox" id="computers" name="categorie" /> 
+                                <label for="computers">Computers & Tablets</label><br>
+                            <input type="checkbox" id="phone" name="categorie" /> 
+                                <label for="phone"> Cell Phone Accessories</label><br>
+                            <input type="checkbox" id="audio" name="categorie" /> 
+                                <label for="audio">Audio</label><br>
+                            <input type="checkbox" id="appliances" name="categorie" /> 
+                            <label for="appliances">Appliances</label><br>
+                            <input type="checkbox" id="iphone" name="categorie" /> 
+                                <label for="iphone">iPhone Accessories</label><br>
+                            <input type="checkbox" id="cameras" name="categorie" /> 
+                                <label for="cameras">Cameras & Camcorders</label><br>
+                            <input type="checkbox" id="ipnone-cases" name="categorie" />
+                                <label for="ipnone-cases">iPhone Cases & Clips</label><br>
+                            <input type="checkbox" id="tv" name="categorie" /> 
+                                <label for="tv">TV & Home Theater</label><br>
+                            <input type="checkbox" id="small" name="categorie" /> 
+                                <label for="small">Small Kitchen Appliances</label><br>
+                
+                        </div>
+                        1920<br>
+                        1820<br>
+                        462<br>
+                        6556<br>
+                        120<br>
+                        353<br>
+                        45<br>
+                        456<br>
+                        55<br>
+                        10<br>
+                    </form>
+                    
+                    <img class="line" src="img/Divider.png" /><br>
+                    <b>Brand</b>
+                    <form action="" method="GET" name="category">
+                        <div>
+                        <input type="radio" id="insigni" name="insigni" /> 
+                            <label for="insigni">Insigni</label><br>
+                        <input type="radio" id="samsung" name="samsung" /> 
+                            <label for="samsung">Samsung</label><br>
+                        <input type="radio" id="apple" name="apple" /> 
+                            <label for="apple">Apple</label><br>
+                        <input type="radio" id="hp" name="hp" /> 
+                            <label for="hp">HP</label><br>
+                        <input type="radio" id="sony" name="sony" /> 
+                            <label for="sony">Sony</label><br>
+                        <input type="radio" id="metra" name="metra" /> 
+                            <label for="metra">Metra</label><br>
+                        <input type="radio" id="dyne" name="dyne" /> 
+                            <label for="dyne">Dyne</label><br>
+                        <input type="radio" id="canon" name="canon" /> 
+                            <label for="canon">Canon</label><br>
+                        <input type="radio" id="lg" name="lg" /> 
+                            <label for="lg">LG</label><br>
+                        <input type="radio" id="speck" name="specks" /> 
+                            <label for="speck">Speck</label><br>
+                        </div>
+                        220<br>
+                        120<br>
+                        320<br>
+                        32<br>
+                        520<br>
+                        55<br>
+                        120<br>
+                        98<br>
+                        99<br>
+                        575
+                    </form>                             
+                </div>
+
+                <button class="clear">Clear all filters</button>
+            </section>
+
+            <section class="content">
+                <div class="results">
+
+                    7,618 results found <button class="like-butt"><img class="like" src="img/heart.svg" /></button>
+
+                </div>
+
+                <div class="search">
+                    <input type="search" id="search" placeholder="  Search" />
+                    <button class="find"> <img class="image-search" src="img/4801315_glass_magnifier_magnifying_search_searching_icon.svg"/> </button>
+                </div>
+
+                <div class="catalog">
+                    <div class = "product-card">
+
+                        <div class = "image">
+                            <img src="img/apple-watch.png" />
+                        </div>
+
+                        <div class="rating-price">
+
+                            <div class = "rating">
+                                3,4 <img class="svg-image" src="img/star.svg"/>
+                            </div>
+                            
+                            <p class="price">$399</p>
+                        
+                        </div>
+                                            
+                        <p class="name">Apple Watch Series 4 GPS</p>
+                        <p class="information">Redesigned from scratch and completely revised.</p>
+
+                        <div class="buttons">
+                            <button class="wishlist"><img class="svg-image" src="img/heart.svg"/>WISHLIST</button><button class="add"><img class="svg-image" src="img/basket.svg"/>ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+
+                    <div class = "product-card">
+
+                        <div class = "image">
+                            <img src="img/jbl-speaker.png" />
+                        </div>
+
+                        <div class="rating-price">
+
+                            <div class = "rating">
+                                4,1 <img class="svg-image" src="img/star.svg"/>
+                            </div>
+                            
+                            <p class="price">$199</p>
+                        
+                        </div>
+                                            
+                        <p class="name">JBL Speaker</p>
+                        <p class="information">Redesigned from scratch and completely revised.</p>
+
+                        <div class="buttons">
+                            <button class="wishlist"><img class="svg-image" src="img/heart.svg"/>WISHLIST</button><button class="add"><img class="svg-image" src="img/basket.svg"/>ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+
+                    <div class = "product-card">
+
+                        <div class = "image">
+                            <img src="img/iphone-x.png" />
+                        </div>
+
+                        <div class="rating-price">
+
+                            <div class = "rating">
+                                3,9 <img class="svg-image" src="img/star.svg"/>
+                            </div>
+                            
+                            <p class="price">$899</p>
+                        
+                        </div>
+                                            
+                        <p class="name">Apple iPhone X 128GB</p>
+                        <p class="information">Redesigned from scratch and completely revised.</p>
+
+                        <div class="buttons">
+                            <button class="wishlist"><img class="svg-image" src="img/heart.svg"/>WISHLIST</button><button class="add"><img class="svg-image" src="img/basket.svg"/>ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+
+                    <div class = "product-card">
+
+                        <div class = "image">
+                            <img src="img/beats-headphones.png" />
+                        </div>
+
+                        <div class="rating-price">
+
+                            <div class = "rating">
+                                3,6 <img class="svg-image" src="img/star.svg"/>
+                            </div>
+                            
+                            <p class="price">$459</p>
+                        
+                        </div>
+                                            
+                        <p class="name">Beats Headphones</p>
+                        <p class="information">Redesigned from scratch and completely revised.</p>
+
+                        <div class="buttons">
+                            <button class="wishlist"><img class="svg-image" src="img/heart.svg"/>WISHLIST</button><button class="add"><img class="svg-image" src="img/basket.svg"/>ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+
+                    <div class = "product-card">
+
+                        <div class = "image">
+                            <img class="image-horizontal" src="img/macbook-pro.png" />
+                        </div>
+
+                        <div class="rating-price">
+
+                            <div class = "rating">
+                                4,7 <img class="svg-image" src="img/star.svg"/>
+                            </div>
+                            
+                            <p class="price">$2499</p>
+                        
+                        </div>
+                                            
+                        <p class="name">Apple Macbook Pro 512GB SSD</p>
+                        <p class="information">Redesigned from scratch and completely revised.</p>
+
+                        <div class="buttons">
+                            <button class="wishlist"><img class="svg-image" src="img/heart.svg"/>WISHLIST</button><button class="add"><img class="svg-image" src="img/basket.svg"/>ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+
+                    <div class = "product-card">
+
+                        <div class = "image">
+                            <img src="img/ipad-pro.png" />
+                        </div>
+
+                        <div class="rating-price">
+
+                            <div class = "rating">
+                                4,3 <img class="svg-image" src="img/star.svg"/>
+                            </div>
+                            
+                            <p class="price">$899</p>
+                        
+                        </div>
+                                            
+                        <p class="name">Apple iPad Pro 64GB</p>
+                        <p class="information">Redesigned from scratch and completely revised.</p>
+
+                        <div class="buttons">
+                            <button class="wishlist"><img class="svg-image" src="img/heart.svg"/>WISHLIST</button><button class="add"><img class="svg-image" src="img/basket.svg"/>ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+
+                    <div class = "product-card">
+
+                        <div class = "image">
+                            <img src="img/jlab-audio-wireless.png" />
+                        </div>
+
+                        <div class="rating-price">
+
+                            <div class = "rating">
+                               4,2 <img class="svg-image" src="img/star.svg"/>
+                            </div>
+                            
+                            <p class="price">$2499</p>
+                        
+                        </div>
+                                            
+                        <p class="name">JBuds Air Wireless Bluetooth…</p>
+                        <p class="information">Redesigned from scratch and completely revised.</p>
+
+                        <div class="buttons">
+                            <button class="wishlist"><img class="svg-image" src="img/heart.svg"/>WISHLIST</button><button class="add"><img class="svg-image" src="img/basket.svg"/>ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+
+                    <div class = "product-card">
+
+                        <div class = "image">
+                            <img src="img/homepod.png" />
+                        </div>
+
+                        <div class="rating-price">
+
+                            <div class = "rating">
+                                3,5 <img class="svg-image" src="img/star.svg"/>
+                            </div>
+                            
+                            <p class="price">$399</p>
+                        
+                        </div>
+                                            
+                        <p class="name">Apple Homepod</p>
+                        <p class="information">Redesigned from scratch and completely revised.</p>
+
+                        <div class="buttons">
+                            <button class="wishlist"><img class="svg-image" src="img/heart.svg"/>WISHLIST</button><button class="add"><img class="svg-image" src="img/basket.svg"/>ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+
+                    <div class = "product-card">
+
+                        <div class = "image">
+                            <img src="img/magic-mouse.png" />
+                        </div>
+
+                        <div class="rating-price">
+
+                            <div class = "rating">
+                                4 <img class="svg-image" src="img/star.svg"/>
+                            </div>
+                            
+                            <p class="price">$99</p>
+                        
+                        </div>
+                                            
+                        <p class="name">Apple Magic Mouse </p>
+                        <p class="information">Redesigned from scratch and completely revised.</p>
+
+                        <div class="buttons">
+                            <button class="wishlist"><img class="svg-image" src="img/heart.svg"/>WISHLIST</button><button class="add"><img class="svg-image" src="img/basket.svg"/>ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    <footer>
+       
+           <a class="arrow-back-left" href="#" > <img class="left" src="img/2931162_arrow_back_left_direction_move_icon.svg" /> </a></ol>
+           <div><a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">6</a>
+                <a href="#">7</a>
+                <a href="#">8</a>
+                <a href="#">9</a>
+                <a href="#">10</a>    
+            </div>
+            <a class="arrow-forward-right" href="#" > <img class="right" src="img/2931159_arrow_forward_right_move_navigation_icon.svg" /></a> 
+    </footer>
+
+    </body>
+</html> <!--<img class="left" src="img/2931162_arrow_back_left_direction_move_icon.svg" /><img class="right" src="img/2931159_arrow_forward_right_move_navigation_icon.svg" />-->
