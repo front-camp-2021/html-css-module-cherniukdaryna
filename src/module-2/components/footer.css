@@ -21,6 +21,7 @@ footer > a, footer>div>a{
 
 footer > a:link, footer > div > a:link, footer>div{
     background-color: rgba(237, 237, 237, 1);
+    color: black;
 }
 
 footer>div{

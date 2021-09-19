@@ -5,22 +5,3 @@
     justify-content: space-between;
     margin-bottom: 3.3vh;
 }
-
-@media screen and (max-width: 1200px){
-    .catalog {
-        width: 46vw;
-        max-height: 237vh;
-        grid-template-columns: 1fr 1fr ;
-        grid-template-rows: repeat(5 1fr);
-    }
-    
-    .content {
-        height: 253.35vh;
-    }
-
-    .filters{
-        position: -webkit-sticky;
-        position: sticky;
-        top: -7.3vh;
-    }
-}
