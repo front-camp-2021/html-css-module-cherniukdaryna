@@ -12,7 +12,7 @@ footer, footer>div{
 
 footer > a, footer>div>a{
     width: 2.04vw;
-    height: 3.7vh;
+    height: 2.04vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,7 +27,7 @@ footer > a:link, footer > div > a:link, footer>div{
 footer>div{
     margin: 0 2vw;
     border-radius: 20px;
-    height: 3.7vh;
+    height: 2.04vw;
     width: 20.4vw;
 }
 
