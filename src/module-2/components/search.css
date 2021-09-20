@@ -20,7 +20,6 @@
 .like-butt{
     width: 2.5vw;
     height: 3.7vh;
-
     background-color: #6F64F8;
 }
 
@@ -31,7 +30,6 @@
 
 input[type="search"], .find, .search{
     height: 5.75vh;
-
 }
 
 input[type="search"]{

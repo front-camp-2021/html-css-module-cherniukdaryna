@@ -1,4 +1,4 @@
-* {
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -6,40 +6,46 @@
     border: none;
     text-decoration: none;
 }
+
 html{
     font-size: 95%;
+    height: 100%;
 }
 
-body {
+body{
     background-color: rgba(249, 249, 249, 0.911);
     overflow-y: scroll;
-    padding: 1vh 2.2vw 1vh 1vw ;
     color: black;
+    height: 100%;
 }
 
 .product-card, .rating, .buttons{
     border-radius: 8px;
 }
-.product-card {
+
+.product-card{
     display: block;
     width: 20vw;
-    height:45vh;
+    height: 45vh;
     background-color: #FFFFFF;
     padding-top: 2vh;
     position: relative;
     box-shadow: 0 10px 20px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);  
 }
-.image {
+
+.image{
     margin-bottom: 3vh;
     height: 25.2vh;
     width: 100%;
     display: flex;
     justify-content: center;
 }
+
 .rating, .rating-price{
     line-height: 2.8vh;
 }
-.rating {
+
+.rating{
     height: 100%;
     width: 3.7vw;
     background-color: #6F64F8;
@@ -48,7 +54,8 @@ body {
     font-size: 1rem;
     font-weight: 500;
 }
-.rating-price {
+
+.rating-price{
     height: 2.8vh;
     width: 100%;
     display: flex;
@@ -56,49 +63,52 @@ body {
     justify-content: space-between;   
     margin-bottom: 1vh;
 }
-.price, .name, .wishlist {
+
+.price, .name, .wishlist{
     font-size: 1rem;
     font-weight: 600;
- 
 }
-.price {
+
+.price{
     margin: auto 1.3vw;      
- 
 }
-.name, .information, .rating {
+
+.name, .information, .rating{
     margin-left: 1.3vw;
 }
-.name {
-    margin-bottom: 0.3vh;   
-     
-}
-.information {
 
+.name{
+    margin-bottom: 0.3vh;   
+}
+
+.information{
     font-size: 0.9rem;
     font-weight: 600; 
-
 }
-.wishlist, .add {
+
+.wishlist, .add{
     font-family: 'Barlow', sans-serif;
     margin: 0;
     width: 50%;
     height: 100%;
 }
-.wishlist {
-    border-radius: 0 0 0 1vh;     
-    
 
+.wishlist{
+    border-radius: 0 0 0 1vh;     
 }
-.add {
+
+.add{
     color: white;
     background-color: #6F64F8;
     border-radius: 0 0 1vh 0;
     font-size: 1rem ; 
 }
+
 .add:hover, .wishlist:hover, .rating:hover, .image:hover, button:hover{
     cursor: pointer;
 }
-.buttons {
+
+.buttons{
     position:absolute;
     bottom:0;
     width: 100%;
@@ -111,10 +121,11 @@ body {
     margin: 0 0.1vw;
 }
 
-.image > img {
+.image > img{
     max-width: 90%;
 }
-.image-horizontal {
+
+.image-horizontal{
     margin-top: 3.5vh;
     max-height: 70%;
 }

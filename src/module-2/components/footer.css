@@ -1,7 +1,10 @@
 footer{
+    height: 6vh;
     width: 100%;
     font-size: 1.2rem;
-    font-weight: 500;   
+    font-weight: 500;
+    position: absolute;
+    bottom: 0;
 }
 
 footer, footer>div{
@@ -32,12 +35,12 @@ footer>div{
 }
 
 footer > a:hover, footer > div > a:hover, footer > a:active, footer > div > a:active{
-    background-color:#6F64F8 ;
+    background-color: #6F64F8 ;
     color: white;
 }
 
 .left, .right{
     max-width: 1vw;
     max-height: 2vh;
-    
 }
+

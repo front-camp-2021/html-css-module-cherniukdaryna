@@ -5,9 +5,10 @@
 }
 
 @media screen and (max-width: 720px){
-    .content {
+    .content{
         height: 253.35vh;
         width: 100%;
+        padding-left: 2vw;
     }
 
     .filters, #menu__burger{
@@ -15,7 +16,7 @@
     }
 
     .product-card{
-        width: 45vw;
+        width: 46vw;
     }
 
     .like-butt, .find{
@@ -112,5 +113,9 @@
     
     nav, header{
         justify-content:center;
+    }
+    
+    .rating {
+        width: 9vw;
     }
 }
