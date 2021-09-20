@@ -114,8 +114,13 @@
     nav, header{
         justify-content:center;
     }
-    
+
     .rating {
         width: 9vw;
+    }
+
+    .logo-header{
+        max-height: 10vh;
+        max-width: 10vw;
     }
 }
