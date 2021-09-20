@@ -1,0 +1,27 @@
+@media screen and (max-width: 320px){
+    .catalog {
+        height: 429vh;
+        grid-template-columns: 1fr ;
+        grid-template-rows: repeat(9 1fr);
+    }
+
+    .sidebar-for-720{
+        width: 100vw;
+    }
+
+    nav{
+        height: 4vh;
+    }
+
+    nav > img{
+        max-height: 2.5vh;
+        max-width: 2.5vh;
+    }
+    
+    .arrow{
+        height: 2vh;
+        width: 2vh;
+        margin-left: 1vh;
+        margin-right: 1vh;
+    }
+}
