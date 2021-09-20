@@ -25,8 +25,8 @@
 }
 
 .like{
-    max-width: 1.2vw;
-    max-height: 1.6vh;
+    width: 1.2vw;
+    height: 1.6vh;
 }
 
 input[type="search"], .find, .search{
@@ -48,6 +48,6 @@ input[type="search"]{
 }
 
 .image-search{
-    max-width: 2vw;
-    max-height: 4vh;
+    width: 2vw;
+    height: 4vh;
 }
