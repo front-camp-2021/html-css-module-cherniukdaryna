@@ -18,7 +18,7 @@
         position: sticky;
         top: -7.3vh;
     }
-
+    
     .product-card{
         width: 30vw;
         height:45vh;
@@ -32,5 +32,25 @@
         font-size: 1rem;
         padding: 0.5vh;
     }
-
+    .like-butt, .find{
+        width: 4vw;
+    }
+    .like{
+        width: 2.3vw;
+        height: 2.5vh;
+    }
+    .image-search{
+        width: 3vw;
+        height: 5vh;
+    }
+    footer > a, footer>div>a{
+        width: 4vw;
+        height: 4vw;
+    }
+    footer>div{
+        
+        height: 4vw;
+        width: 40vw;
+    }
+    
 }
