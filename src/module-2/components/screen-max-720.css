@@ -1,0 +1,116 @@
+@media screen and (min-width:720px ){
+    .sidebar-for-720{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .content {
+        height: 253.35vh;
+        width: 100%;
+    }
+
+    .filters, #menu__burger{
+        display: none;
+    }
+
+    .product-card{
+        width: 45vw;
+    }
+
+    .like-butt, .find{
+        width: 6vw;
+    }
+    .like{
+        width: 3vw;
+        height: 3.1vh;
+    }
+    .image-search{
+        width: 4vw;
+        height: 6vh;
+    }
+    input[type="radio"], input[type="checkbox"]{
+        margin: 0 2vw;
+    }
+    .filters-navigation-max-720 > p{
+        text-indent: 2vw;
+    }
+    .sidebar-for-720{
+        height:90vh ;
+        width: 45vw;
+        position: fixed;
+        z-index: 1;
+        margin: -1vh -2.2vw -1vh -1vw;
+        
+    }
+    .filters-navigation-max-720{
+        height:100% ;
+        position: relative;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22); 
+        border-radius: 8px;
+    }
+
+    .filters-navigation-max-720, .close{
+        visibility: hidden;
+    }
+
+    .clear-all{
+        height: 5.2vh;
+        width: 100%;
+        background-color:#6F64F8 ;
+        border-radius: 0.8vh;
+        position: absolute;
+        bottom: 0;
+        color: white;
+        font-size: 1.3rem;
+    }
+
+    form{
+        margin-right: 1vw;
+    }
+
+    #menu__burger{
+        display: none;
+    }
+
+    .menu__btn{
+        margin-top: 2vh;
+        margin-left:  2vw;
+    }
+
+    .burger-image, .close {
+        width: 6vw;
+        height: 5vh;
+    }
+
+    .close{
+        margin-left: -6vw;
+    }
+
+    #menu__burger:checked ~ .filters-navigation-max-720, #menu__burger:checked ~ .menu__btn > .close{
+        visibility: visible;
+    }
+    
+    #menu__burger:checked ~ .menu__btn > .burger-image{
+        visibility: hidden;
+    }
+
+    .menu__btn{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+    }
+    
+    .header-filter{
+        padding: 2vh 2vw;
+    }
+
+    input[type="search"]{
+        margin: 0;
+    }
+    
+    nav, header{
+        justify-content:center;
+    }
+}
