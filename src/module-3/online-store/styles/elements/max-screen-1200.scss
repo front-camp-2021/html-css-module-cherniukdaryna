@@ -23,4 +23,42 @@
         position: sticky;
         top: -7.3vh;
     }
+
+    .top-navigation__image-home{
+        @include size(3vw, 3vw);
+    }
+
+    .top-navigation__arrow{
+        margin: 0 1vw;
+        @include size(2vw, 2vw);
+    }
+
+    .rating{
+        width: 7vw;
+    }
+
+    .filters-navigation{
+        padding: 0.5vh;
+        @include font(1rem, 500);
+    }
+
+    .results__like-butn, .search__btn-glass{
+        width: 4vw;
+    }
+    
+    .search__image-search{
+        @include size(3vw, 5vh);
+    }
+
+    .links-list{
+        @include size(40vw, 4vw);
+
+        &__link{
+            @include size(10vw, 4vw);
+        }
+    }
+
+    .footer__arrow-back-left{
+        @include size(10vw, 4vw);
+    }
 }
