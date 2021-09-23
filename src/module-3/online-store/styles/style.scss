@@ -1,10 +1,15 @@
 @use "./elements/main";
 
+@use "./elements/all-content";
+
 @use "./elements/header";
 
 @use "./elements/nav";
 
-@use "./elements/filters-default.scss";
+@use "./elements/filters-default";
 
-@use "./elements/sidebar-for-720.scss";
+@use "./elements/sidebar-for-720";
 
+@use "./elements/results";
+
+@use "./elements/search";

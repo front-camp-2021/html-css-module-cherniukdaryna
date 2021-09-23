@@ -1,0 +1,9 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+
+.all-content{
+    @include size($width-100, auto);
+    @include flex(flex, space-between, row, flex-start);
+    position: relative;
+    padding-bottom: 8vh;
+}
