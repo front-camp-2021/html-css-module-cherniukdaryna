@@ -16,137 +16,129 @@
     </header>
   
     <nav class="top-navigation">
-      <img class="top-navigation__image-home" src="img/3844435_home_house_icon.svg"/>
+        <img class="top-navigation__image-home" src="img/3844435_home_house_icon.svg"/>
         
-      <img class="top-navigation__arrow" src="img/4829859_arrow_next_right_icon.svg" /> 
+        <img class="top-navigation__arrow" src="img/4829859_arrow_next_right_icon.svg" /> 
   
-      <a class="top-navigation__link" href="#">eCommerce</a>
+        <a class="top-navigation__link" href="#">eCommerce</a>
   
-      <img class="top-navigation__arrow" src="img/4829859_arrow_next_right_icon.svg" />
+        <img class="top-navigation__arrow" src="img/4829859_arrow_next_right_icon.svg" />
   
-      <a class="top-navigation__link" href="#">Electronics</a> 
+        <a class="top-navigation__link" href="#">Electronics</a> 
     </nav>
 
-  <div class="sidebar-for-720">
+    <div class="sidebar-for-720">
 
-    <input class="sidebar-for-720__checkbox--disabled" id="menu__burger" type="checkbox"/>
-    <label class="sidebar-for-720__label" for="menu__burger">
-      <img class="burger-image" src="img/2561466_menu_icon.svg"/> 
-      <img class="close" src="img/2703079_close_delete_exit_x_icon.svg"/>
-    </label>
+        <input class="sidebar-for-720__checkbox--disabled" id="menu__burger" type="checkbox"/>
+        <label class="sidebar-for-720__label" for="menu__burger">
+        <img class="burger-image" src="img/2561466_menu_icon.svg"/> 
+        <img class="close" src="img/2703079_close_delete_exit_x_icon.svg"/>
+        </label>
 
-    <div class="filters-navigation-max-720">
-        
-        <div class="header-filter">
-            <b class="header-filter__name">Filtres</b>  
-        </div>
+        <div class="filters-navigation-max-720">
+            <div class="first-filtres-list">
+                <p class="first-filtres-list__name--bold"><b>Multi Range</b></p>
 
-        <div class="first-filtres-list">
-          <p class="first-filtres-list__name--bold"><b>Multi Range</b></p>
+                <form class="first-filtres-list__form" action="" method="GET" name="multi-range">
+                        
+                    <input class="first-filtres-list__radio-input" type="radio" id="first" name="first"/> 
+                        <label class="first-filtres-list__radio-input-label" for="first"> $10</label><br>
+                    <input class="first-filtres-list__radio-input" type="radio" id="second" name="second"/> 
+                        <label class="first-filtres-list__radio-input-label" for="second"> $10-$100</label><br>
+                    <input class="first-filtres-list__radio-input" type="radio" id="third" name="third"/> 
+                        <label class="first-filtres-list__radio-input-label" for="third"> $100-$500</label><br>
+                    <input class="first-filtres-list__radio-input" type="radio" id="fourth" name="fourth"/> 
+                        <label class="first-filtres-list__radio-input-label" for="fourth">$500</label><br>
+                    <input class="first-filtres-list__radio-input" type="radio" id="all" name="all"/> 
+                        <label class="first-filtres-list__radio-input-label" for="all"> All</label><br>
+                </form>
+            </div>
 
-          <form class="first-filtres-list__form" action="" method="GET" name="multi-range">
-                  
-              <input class="first-filtres-list__radio-input" type="radio" id="first" name="first"/> 
-                  <label class="first-filtres-list__radio-input-label" for="first"> $10</label><br>
-              <input class="first-filtres-list__radio-input" type="radio" id="second" name="second"/> 
-                  <label class="first-filtres-list__radio-input-label" for="second"> $10-$100</label><br>
-              <input class="first-filtres-list__radio-input" type="radio" id="third" name="third"/> 
-                  <label class="first-filtres-list__radio-input-label" for="third"> $100-$500</label><br>
-              <input class="first-filtres-list__radio-input" type="radio" id="fourth" name="fourth"/> 
-                  <label class="first-filtres-list__radio-input-label" for="fourth">$500</label><br>
-              <input class="first-filtres-list__radio-input" type="radio" id="all" name="all"/> 
-                  <label class="first-filtres-list__radio-input-label" for="all"> All</label><br>
-          </form>
-        </div>
+            <img class="filters-navigation__line" src="img/Divider.png" /><br>
 
-        <img class="filters-navigation-max-720__line" src="img/Divider.png" /><br>
+            <div class="second-filtres-list">
 
-        <div class="second-filtres-list">
+                <p class="second-filtres-list__name--bold"><b>Category</b></p>
 
-          <p class="second-filtres-list__name--bold"><b>Category</b></p>
+                <form class="second-filtres-list__form" action="" method="GET" name="category">
+                    <div>
+                        <input class="first-filtres-list__checkbox-input" type="checkbox" id="cell" name="categorie" />
+                            <label class="first-filtres-list__checkbox-input-label" for="cell"> Cell Phones</label><br>
+                        <input class="first-filtres-list__checkbox-input" type="checkbox" id="computers" name="categorie" /> 
+                            <label class="first-filtres-list__checkbox-input-label" for="computers">Computers & Tablets</label><br>
+                        <input class="first-filtres-list__checkbox-input" type="checkbox" id="phone" name="categorie" /> 
+                            <label class="first-filtres-list__checkbox-input-label" for="phone"> Cell Phone Acces</label><br>
+                        <input class="first-filtres-list__checkbox-input" type="checkbox" id="audio" name="categorie" /> 
+                            <label class="first-filtres-list__checkbox-input-label" for="audio">Audio</label><br>
+                        <input class="first-filtres-list__checkbox-input" type="checkbox" id="appliances" name="categorie" /> 
+                            <label class="first-filtres-list__checkbox-input-label" for="appliances">Appliances</label><br>
+                        <input class="first-filtres-list__checkbox-input" type="checkbox" id="iphone" name="categorie" /> 
+                            <label class="first-filtres-list__checkbox-input-label" for="iphone">iPhone Accessories</label><br>
+                        <input class="first-filtres-list__checkbox-input" type="checkbox" id="cameras" name="categorie" /> 
+                            <label class="first-filtres-list__checkbox-input-label" for="cameras">Cameras </label><br>
+                        <input class="first-filtres-list__checkbox-input" type="checkbox" id="ipnone-cases" name="categorie" />
+                            <label class="first-filtres-list__checkbox-input-label" for="ipnone-cases">iPhone Cases & Clips</label><br>
+                        <input class="first-filtres-list__checkbox-input" type="checkbox" id="tv" name="categorie" /> 
+                            <label class="first-filtres-list__checkbox-input-label" for="tv">TV & Home Theater</label><br>
+                        <input class="first-filtres-list__checkbox-input" type="checkbox" id="small" name="categorie" /> 
+                            <label class="first-filtres-list__checkbox-input-label" for="small">Kitchen Appliances</label><br>
+                    </div>
 
-          <form class="second-filtres-list__form" action="" method="GET" name="category">
-              <div>
-                  <input class="first-filtres-list__checkbox-input" type="checkbox" id="cell" name="categorie" />
-                      <label class="first-filtres-list__checkbox-input-label" for="cell"> Cell Phones</label><br>
-                  <input class="first-filtres-list__checkbox-input" type="checkbox" id="computers" name="categorie" /> 
-                      <label class="first-filtres-list__checkbox-input-label" for="computers">Computers & Tablets</label><br>
-                  <input class="first-filtres-list__checkbox-input" type="checkbox" id="phone" name="categorie" /> 
-                      <label class="first-filtres-list__checkbox-input-label" for="phone"> Cell Phone Acces</label><br>
-                  <input class="first-filtres-list__checkbox-input" type="checkbox" id="audio" name="categorie" /> 
-                      <label class="first-filtres-list__checkbox-input-label" for="audio">Audio</label><br>
-                  <input class="first-filtres-list__checkbox-input" type="checkbox" id="appliances" name="categorie" /> 
-                      <label class="first-filtres-list__checkbox-input-label" for="appliances">Appliances</label><br>
-                  <input class="first-filtres-list__checkbox-input" type="checkbox" id="iphone" name="categorie" /> 
-                      <label class="first-filtres-list__checkbox-input-label" for="iphone">iPhone Accessories</label><br>
-                  <input class="first-filtres-list__checkbox-input" type="checkbox" id="cameras" name="categorie" /> 
-                      <label class="first-filtres-list__checkbox-input-label" for="cameras">Cameras </label><br>
-                  <input class="first-filtres-list__checkbox-input" type="checkbox" id="ipnone-cases" name="categorie" />
-                      <label class="first-filtres-list__checkbox-input-label" for="ipnone-cases">iPhone Cases & Clips</label><br>
-                  <input class="first-filtres-list__checkbox-input" type="checkbox" id="tv" name="categorie" /> 
-                      <label class="first-filtres-list__checkbox-input-label" for="tv">TV & Home Theater</label><br>
-                  <input class="first-filtres-list__checkbox-input" type="checkbox" id="small" name="categorie" /> 
-                      <label class="first-filtres-list__checkbox-input-label" for="small">Kitchen Appliances</label><br>
-                  </div>
-
-                  1920<br>
-                  1820<br>
-                  462<br>
-                  6556<br>
-                  120<br>
-                  353<br>
-                  45<br>
-                  456<br>
-                  55<br>
-                  10<br>
-
-          </form>
-        </div>
+                    1920<br>
+                    1820<br>
+                    462<br>
+                    6556<br>
+                    120<br>
+                    353<br>
+                    45<br>
+                    456<br>
+                    55<br>
+                    10<br>
+                </form>
+            </div>
             
-        <img class="filters-navigation-max-720__line" src="img/Divider.png" /><br>
+            <img class="filters-navigation__line" src="img/Divider.png" /><br>
 
-        <div class="third-filtres-list">
-          <p class="third-filtres-list__name--bold"><b>Brand</b></p>
+            <div class="third-filtres-list">
+                <p class="third-filtres-list__name--bold"><b>Brand</b></p>
 
-          <form class="third-filtres-list__form" action="" method="GET" name="category">
-              <div>
-              <input class="third-filtres-list__radio-input" type="radio" id="insigni" name="insigni" /> 
-                  <label class="third-filtres-list__radio-input-label" for="insigni">Insigni</label><br>
-              <input class="third-filtres-list__radio-input" type="radio" id="samsung" name="samsung" /> 
-                  <label class="third-filtres-list__radio-input-label" for="samsung">Samsung</label><br>
-              <input class="third-filtres-list__radio-input" type="radio" id="apple" name="apple" /> 
-                  <label class="third-filtres-list__radio-input-label" for="apple">Apple</label><br>
-              <input class="third-filtres-list__radio-input" type="radio" id="hp" name="hp" /> 
-                  <label class="third-filtres-list__radio-input-label" for="hp">HP</label><br>
-              <input class="third-filtres-list__radio-input" type="radio" id="sony" name="sony" /> 
-                  <label class="third-filtres-list__radio-input-label" for="sony">Sony</label><br>
-              <input class="third-filtres-list__radio-input" type="radio" id="metra" name="metra" /> 
-                  <label class="third-filtres-list__radio-input-label" for="metra">Metra</label><br>
-              <input class="third-filtres-list__radio-input" type="radio" id="dyne" name="dyne" /> 
-                  <label class="third-filtres-list__radio-input-label" for="dyne">Dyne</label><br>
-              <input class="third-filtres-list__radio-input" type="radio" id="canon" name="canon" /> 
-                  <label class="third-filtres-list__radio-input-label" for="canon">Canon</label><br>
-              <input class="third-filtres-list__radio-input" type="radio" id="lg" name="lg" /> 
-                  <label class="third-filtres-list__radio-input-label" for="lg">LG</label><br>
-              <input class="third-filtres-list__radio-input" type="radio" id="speck" name="specks" /> 
-                  <label class="third-filtres-list__radio-input-label" for="speck">Speck</label><br>
-              </div>
+                <form class="third-filtres-list__form" action="" method="GET" name="category">
+                    <div>
+                    <input class="third-filtres-list__radio-input" type="radio" id="insigni" name="insigni" /> 
+                        <label class="third-filtres-list__radio-input-label" for="insigni">Insigni</label><br>
+                    <input class="third-filtres-list__radio-input" type="radio" id="samsung" name="samsung" /> 
+                        <label class="third-filtres-list__radio-input-label" for="samsung">Samsung</label><br>
+                    <input class="third-filtres-list__radio-input" type="radio" id="apple" name="apple" /> 
+                        <label class="third-filtres-list__radio-input-label" for="apple">Apple</label><br>
+                    <input class="third-filtres-list__radio-input" type="radio" id="hp" name="hp" /> 
+                        <label class="third-filtres-list__radio-input-label" for="hp">HP</label><br>
+                    <input class="third-filtres-list__radio-input" type="radio" id="sony" name="sony" /> 
+                        <label class="third-filtres-list__radio-input-label" for="sony">Sony</label><br>
+                    <input class="third-filtres-list__radio-input" type="radio" id="metra" name="metra" /> 
+                        <label class="third-filtres-list__radio-input-label" for="metra">Metra</label><br>
+                    <input class="third-filtres-list__radio-input" type="radio" id="dyne" name="dyne" /> 
+                        <label class="third-filtres-list__radio-input-label" for="dyne">Dyne</label><br>
+                    <input class="third-filtres-list__radio-input" type="radio" id="canon" name="canon" /> 
+                        <label class="third-filtres-list__radio-input-label" for="canon">Canon</label><br>
+                    <input class="third-filtres-list__radio-input" type="radio" id="lg" name="lg" /> 
+                        <label class="third-filtres-list__radio-input-label" for="lg">LG</label><br>
+                    <input class="third-filtres-list__radio-input" type="radio" id="speck" name="specks" /> 
+                        <label class="third-filtres-list__radio-input-label" for="speck">Speck</label><br>
+                    </div>
 
-                220<br>
-                120<br>
-                320<br>
-                32<br>
-                520<br>
-                55<br>
-                120<br>
-                98<br>
-                99<br>
-                575
-          </form>
+                    220<br>
+                    120<br>
+                    320<br>
+                    32<br>
+                    520<br>
+                    55<br>
+                    120<br>
+                    98<br>
+                    99<br>
+                    575
+                </form>
+            </div>                                 
         </div>    
-
-        <button class="filters-navigation-max-720__buttonn-clear-all">Clear all filters</button>                           
-      </div>    
   </div>
 
   <div class="all-content">

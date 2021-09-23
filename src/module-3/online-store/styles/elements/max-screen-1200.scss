@@ -1,0 +1,26 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+
+@media screen and (max-width:1200px ){
+    .catalog{
+        @include size($width-100, 237vh);
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: repeat(5 1fr);
+        grid-row-gap: 4.2vh;
+        grid-column-gap: 3vw;
+    }
+
+    .content{
+        @include size(63vw, 253.35vh);
+    }
+
+    .product-card{
+        @include size(30vw, 45vh);
+    }
+
+    .filters-default{
+        position: -webkit-sticky;
+        position: sticky;
+        top: -7.3vh;
+    }
+}
