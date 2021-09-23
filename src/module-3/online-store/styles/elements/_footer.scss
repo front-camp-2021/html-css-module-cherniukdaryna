@@ -14,11 +14,11 @@
         @include flex(flex, center, row, center);
         background-color: $color-white;
         background-color: rgba(237, 237, 237, 1);
+        color: black;
     }
 
     &__arrow-back-left:hover, &__arrow-forward-right:hover, &__arrow-back-left:active, &__arrow-forward-right:active{
         background-color: $color-violet-background;
-        color: $color-white;
     }
 
     &__image-arrow-back-left, &__image-arrow-forward-right{
@@ -41,5 +41,6 @@
     }
     &__link:hover, &__link:active{
         background-color: $color-violet-background;
+        color: $color-white;
     }
 }

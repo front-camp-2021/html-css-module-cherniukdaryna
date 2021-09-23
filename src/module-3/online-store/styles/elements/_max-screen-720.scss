@@ -1,0 +1,86 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+
+@media screen and (min-width:720px ){
+    .sidebar-for-720{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .content{
+        @include size ($width-100, 253.35vh);
+        padding-left: 2vw;
+    }
+
+    .product-card{
+        width: 46vw;
+    }
+
+    .filters-default, .sidebar-for-720__checkbox--disabled{
+        display: none;
+    }
+
+    .sidebar-for-720{
+        height: 90vh ;
+        @include size(45vw, 90vh);
+        position: fixed;
+        z-index: 1;
+        margin: -1vh -2.2vw -1vh -1vw;
+    }
+
+    .filters-navigation-max-720{
+        visibility: hidden;
+        height:80% ;
+        position: relative;
+        background-color: $color-white;
+        box-shadow: $shadow; 
+        border-radius: $border-radius;
+        padding-left: 2vw;
+
+        &__line{
+            width: 90%;
+        }
+    }
+
+   
+
+    .sidebar-for-720{
+        margin-top: -10vh;
+
+        &__label{
+            margin-left: 2vw;
+        }
+
+        &__burger-image{
+            @include size(4vh, 4vh);
+        }
+    }
+
+    .top-navigation, .header{
+        justify-content: center;
+    }
+
+    .results{
+        &__like-butn{
+            @include size(4vh, 100%);
+        }
+
+        &__like-image{
+            @include size(2vh, 2vh);
+        }
+    }
+
+    .search__btn-glass{
+        @include size(4vh, 100%);
+    }
+
+    .sidebar-for-720__checkbox--disabled:checked ~ .filters-navigation-max-720{
+        visibility: visible;
+    }
+
+    .filters-default__buttonn-clear-all{
+        margin-left: -2vw;
+    }
+
+}

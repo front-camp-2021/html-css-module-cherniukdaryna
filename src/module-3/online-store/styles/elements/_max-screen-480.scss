@@ -1,0 +1,10 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+
+@media screen and (max-width:480px ){
+    .content{
+        height: 253.35vh;
+        width: 100%;
+        padding-left: 2vw;
+    }
+}

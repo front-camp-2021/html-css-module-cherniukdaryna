@@ -8,7 +8,6 @@
 
 @use "./elements/filters-default";
 
-@use "./elements/sidebar-for-720";
 
 @use "./elements/results";
 
@@ -21,3 +20,7 @@
 @use "./elements/cards-list";
 
 @use "./elements/max-screen-1200";
+
+@use "./elements/max-screen-480";
+
+@use "./elements/max-screen-720";

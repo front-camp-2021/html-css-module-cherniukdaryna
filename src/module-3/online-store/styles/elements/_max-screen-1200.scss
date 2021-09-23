@@ -1,7 +1,7 @@
 @use "./variables" as *;
 @use "./mixins" as *;
 
-@media screen and (max-width:1200px ){
+@media screen and (max-width: 1200px ){
     .catalog{
         @include size($width-100, 237vh);
         grid-template-columns: 1fr 1fr ;
@@ -53,12 +53,13 @@
     .links-list{
         @include size(40vw, 4vw);
 
-        &__link{
-            @include size(10vw, 4vw);
+        &__link:link{
+            @include size(4vw, 4vw);
         }
     }
 
-    .footer__arrow-back-left{
-        @include size(10vw, 4vw);
+    .footer__arrow-back-left:link, .footer__arrow-forward-right:link{
+        @include size(4vw, 4vw);
     }
+
 }
