@@ -1,4 +1,4 @@
-.filters{
+.filters {
     width: 28.57vw;
     height: 157.35vh;
     position: relative;
@@ -7,7 +7,7 @@
     justify-content: space-between;
     margin-left: 1vw;
 }
-.back-arrow, .filters-nav{
+.back-arrow, .filters-nav {
     background-color: white;
     box-shadow: 0 10px 20px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);  
     border-radius: 8px;
@@ -25,12 +25,12 @@
     margin-top: 1.7vh;
     
 }
-.filters-header, form[name="category"]{
+.filters-header, form[name="category"] {
     display: flex;
     flex-direction: row ;
     justify-content: space-between;
 }
-.filters-header{
+.filters-header {
     height: 4vh;
     align-items: center;
     font-size: 1.2rem;
@@ -43,11 +43,11 @@
     margin: 3.2vh 0;
 }
 
-form{
+form {
     margin-top: 1.8vh;
 }
 
-.clear{
+.clear {
     height: 5.2vh;
     width: 100%;
     background-color:#6F64F8 ;

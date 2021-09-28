@@ -1,4 +1,4 @@
-nav{
+nav {
     height: 2vh;
     width: 100%;
     display: flex;
@@ -8,20 +8,20 @@ nav{
     padding-left: 1vh;
 }
 
-nav > img{
+nav > img {
     max-height: 2vh;
     max-width: 2vw;
 }
 
-.arrow{
+.arrow {
     height: 1.5vh;
     width: 1.5vw;
 }
-.nav-top:link{
+.nav-top:link {
     color: #7E72F2;
     font-size: 1rem;
     font-weight: 700;
 }
-.nav-top:hover{
+.nav-top:hover {
     text-decoration: underline;
 }

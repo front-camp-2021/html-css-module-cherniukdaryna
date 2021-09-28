@@ -1,4 +1,4 @@
-footer{
+footer {
     height: 6vh;
     width: 100%;
     font-size: 1.2rem;
@@ -7,13 +7,13 @@ footer{
     bottom: 0;
 }
 
-footer, footer>div{
+footer, footer>div {
     display: flex;
     flex-direction: row ;
     justify-content: center;
 }
 
-footer > a, footer>div>a{
+footer > a, footer>div>a {
     width: 2.04vw;
     height: 2.04vw;
     display: flex;
@@ -22,24 +22,24 @@ footer > a, footer>div>a{
     border-radius: 50%;
 }
 
-footer > a:link, footer > div > a:link, footer>div{
+footer > a:link, footer > div > a:link, footer>div {
     background-color: rgba(237, 237, 237, 1);
     color: black;
 }
 
-footer>div{
+footer>div {
     margin: 0 2vw;
     border-radius: 20px;
     height: 2.04vw;
     width: 20.4vw;
 }
 
-footer > a:hover, footer > div > a:hover, footer > a:active, footer > div > a:active{
+footer > a:hover, footer > div > a:hover, footer > a:active, footer > div > a:active {
     background-color: #6F64F8 ;
     color: white;
 }
 
-.left, .right{
+.left, .right {
     max-width: 1vw;
     max-height: 2vh;
 }

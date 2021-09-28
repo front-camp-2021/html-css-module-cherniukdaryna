@@ -1,4 +1,4 @@
-header{
+header {
     width: 100%;
     height: 7vh;
     display: flex;
@@ -8,16 +8,16 @@ header{
     padding-left: 1vw;
 }
 
-.logo-header{
+.logo-header {
     max-height: 6.67vh;
     max-width: 4.6vw;
     margin-right: 1vw;
 }
-.title:link{
+.title:link {
     color: #7E72F2;
     font-size: 2rem;
     font-weight: 600;
 }
-.title:hover{
+.title:hover {
     text-decoration: underline;
 }

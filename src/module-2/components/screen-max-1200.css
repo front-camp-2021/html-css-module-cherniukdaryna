@@ -1,5 +1,5 @@
 @media screen and (max-width: 1200px){
-    .catalog{
+    .catalog {
         width: 100%;
         max-height: 237vh;
         grid-template-columns: 1fr 1fr ;
@@ -8,57 +8,57 @@
         grid-row-gap: 4.2vh;
     }
 
-    nav > img{
+    nav > img {
         max-height: 3vw;
         max-width: 3vw;
     }
     
-    .arrow{
+    .arrow {
         margin: 0 1vw;
         height: 2vw;
         width: 2vw;
     }
 
-    .content{
+    .content {
         height: 253.35vh;
         width: 63vw;
     }
 
-    .filters{
+    .filters {
         position: -webkit-sticky;
         position: sticky;
         top: -7.3vh;
     }
     
-    .product-card{
+    .product-card {
         width: 30vw;
         height:45vh;
     }
 
-    .rating{
+    .rating {
         width: 6vw;
     }
 
-    .filters-nav{
+    .filters-nav {
         font-size: 1rem;
         padding: 0.5vh;
     }
-    .like-butt, .find{
+    .like-butt, .find {
         width: 4vw;
     }
-    .like{
+    .like {
         width: 2.3vw;
         height: 2.5vh;
     }
-    .image-search{
+    .image-search {
         width: 3vw;
         height: 5vh;
     }
-    footer > a, footer>div>a{
+    footer > a, footer>div>a {
         width: 4vw;
         height: 4vw;
     }
-    footer>div{
+    footer>div {
         height: 4vw;
         width: 40vw;
     }

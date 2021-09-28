@@ -4,52 +4,52 @@
         grid-template-columns: 1fr ;
         grid-template-rows: repeat(9 1fr);
     }
-    .product-card{
+    .product-card {
         width: 100%;
     }
-    .content{
+    .content {
         margin: 0 2vw;
         width: 100%;
     }
 
-    .sidebar-for-720{
+    .sidebar-for-720 {
         width: 70vw;
     }
-    .rating{
+    .rating {
         width: 15vw;
         margin-left: 4vw;
     }
-    .price{
+    .price {
         margin-right: 4vw;
     }
-    .name, .information{
+    .name, .information {
         margin-left: 4vw;
     }
-    .all-content{
+    .all-content {
         padding-bottom: 210vh;
     }
-    footer{
+    footer {
         height: 6vh;
     }
-    footer > a, footer>div>a{
+    footer > a, footer>div>a {
         width: 7.5vw;
         height: 7.5vw;
     }
-    footer>div{
+    footer>div {
         height: 7.5vw;
         width: 75vw;
     }
-    .left, .right{
+    .left, .right {
         max-width: 5vw;
         max-height: 5vw;
     }
-    .menu__btn{
+    .menu__btn {
         margin-left: 5vw;
     }
-    input[type="search"]{
+    input[type="search"] {
         width: 80%;
     }
-    .find, .like-butt{
+    .find, .like-butt {
         width: 10%;
     }
     
