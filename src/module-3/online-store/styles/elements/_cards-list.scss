@@ -1,7 +1,7 @@
 @use "./variables" as *;
 @use "./mixins" as *;
 
-.catalog{
+.catalog {
     @include size(66vw, 141vh);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -10,7 +10,7 @@
     grid-row-gap: 3vh;
 }
 
-.content{
+.content {
     height: 157.35vh;
     @include flex(flex, space-between, column, center);
     margin-bottom: 5vh;

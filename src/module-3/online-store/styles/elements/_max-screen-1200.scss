@@ -1,64 +1,64 @@
 @use "./variables" as *;
 @use "./mixins" as *;
 
-@media screen and (max-width: 1200px ){
-    .catalog{
+@media screen and (max-width: 1200px ) {
+    .catalog {
         @include size($width-100, 237vh);
         grid-template-columns: 1fr 1fr ;
         grid-template-rows: repeat(5 1fr);
         grid-row-gap: 4.2vh;
         grid-column-gap: 3vw;
     }
-
-    .content{
+ 
+    .content {
         @include size(63vw, 253.35vh);
     }
 
-    .product-card{
+    .product-card {
         @include size(30vw, 45vh);
     }
 
-    .filters-default{
+    .filters-default {
         position: -webkit-sticky;
         position: sticky;
         top: -7.3vh;
     }
 
-    .top-navigation__image-home{
+    .top-navigation__image-home {
         @include size(3vw, 3vw);
     }
 
-    .top-navigation__arrow{
+    .top-navigation__arrow {
         margin: 0 1vw;
         @include size(2vw, 2vw);
     }
 
-    .rating{
+    .rating {
         width: 7vw;
     }
 
-    .filters-navigation{
+    .filters-navigation {
         padding: 0.5vh;
         @include font(1rem, 500);
     }
 
-    .results__like-butn, .search__btn-glass{
+    .results__like-butn, .search__btn-glass {
         width: 4vw;
     }
     
-    .search__image-search{
+    .search__image-search {
         @include size(3vw, 5vh);
     }
 
-    .links-list{
+    .links-list {
         @include size(40vw, 4vw);
 
-        &__link:link{
+        &__link:link {
             @include size(4vw, 4vw);
         }
     }
 
-    .footer__arrow-back-left:link, .footer__arrow-forward-right:link{
+    .footer__arrow-back-left:link, .footer__arrow-forward-right:link {
         @include size(4vw, 4vw);
     }
 

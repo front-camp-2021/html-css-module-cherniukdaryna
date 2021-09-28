@@ -1,61 +1,61 @@
 @use "./variables" as *;
 @use "./mixins" as *;
 
-@media screen and (max-width: 480px ){
-    .catalog{
+@media screen and (max-width: 480px ) {
+    .catalog {
         @include size($width-100, 429vh);
         grid-template-columns: 1fr ;
         grid-template-rows: repeat(9 1fr);
     }
 
-    .product-card{
+    .product-card {
         @include size($width-100, 45vh);
     }
 
-    .content{
+    .content {
         margin: 0 2vw;
     }
 
-    .all-content{
+    .all-content {
         @include size($width-100, 465vh);
     }
 
-    .results, .search{
+    .results, .search {
         margin-bottom: 3vh;
     }
 
-    .sidebar-for-720{
+    .sidebar-for-720 {
         width: 70vw;
     }
 
-    .rating{
+    .rating {
         @include size(6vh, 100%);
     }
 
-    .results__like-butn{
+    .results__like-butn {
         @include size(4vh, 4vh);
     }
 
-    .search{
-        &__input{
+    .search {
+        &__input {
             @include size(80%, 100%);
         }
     }
 
-    .links-list{
+    .links-list {
         @include size(25vh, 2.5vh);
 
-        &__link:link{
+        &__link:link {
             @include size(2.5vh, 2.5vh);
         }
     }
 
-    .footer{
-        &__arrow-back-left:link, &__arrow-forward-right:link{
+    .footer {
+        &__arrow-back-left:link, &__arrow-forward-right:link {
             @include size(2.5vh, 2.5vh);
         }
 
-        &__image-arrow-forward-right, &__image-arrow-back-left{
+        &__image-arrow-forward-right, &__image-arrow-back-left {
             @include size(1.5vh, 1.5vh);
         }
     }
