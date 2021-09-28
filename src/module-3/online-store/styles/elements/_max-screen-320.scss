@@ -1,0 +1,19 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+
+@media screen and (max-width: 320px ) {
+    .sidebar-for-720 {
+        width: $width-100;
+    }
+
+    .header__logo-header {
+        max-height: 12vh;
+        max-width: 12vw;
+    }
+
+    .top-navigation {
+        &__image-home, &__arrow {
+            @include size(2vh, 2vh);
+        }
+    }
+}

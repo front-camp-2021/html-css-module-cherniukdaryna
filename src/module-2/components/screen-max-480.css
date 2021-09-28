@@ -1,0 +1,56 @@
+@media screen and (max-width: 480px){
+    .catalog {
+        height: 429vh;
+        grid-template-columns: 1fr ;
+        grid-template-rows: repeat(9 1fr);
+    }
+    .product-card {
+        width: 100%;
+    }
+    .content {
+        margin: 0 2vw;
+        width: 100%;
+    }
+
+    .sidebar-for-720 {
+        width: 70vw;
+    }
+    .rating {
+        width: 15vw;
+        margin-left: 4vw;
+    }
+    .price {
+        margin-right: 4vw;
+    }
+    .name, .information {
+        margin-left: 4vw;
+    }
+    .all-content {
+        padding-bottom: 210vh;
+    }
+    footer {
+        height: 6vh;
+    }
+    footer > a, footer>div>a {
+        width: 7.5vw;
+        height: 7.5vw;
+    }
+    footer>div {
+        height: 7.5vw;
+        width: 75vw;
+    }
+    .left, .right {
+        max-width: 5vw;
+        max-height: 5vw;
+    }
+    .menu__btn {
+        margin-left: 5vw;
+    }
+    input[type="search"] {
+        width: 80%;
+    }
+    .find, .like-butt {
+        width: 10%;
+    }
+    
+}

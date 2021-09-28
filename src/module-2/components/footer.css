@@ -1,0 +1,46 @@
+footer {
+    height: 6vh;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    position: absolute;
+    bottom: 0;
+}
+
+footer, footer>div {
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+}
+
+footer > a, footer>div>a {
+    width: 2.04vw;
+    height: 2.04vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+footer > a:link, footer > div > a:link, footer>div {
+    background-color: rgba(237, 237, 237, 1);
+    color: black;
+}
+
+footer>div {
+    margin: 0 2vw;
+    border-radius: 20px;
+    height: 2.04vw;
+    width: 20.4vw;
+}
+
+footer > a:hover, footer > div > a:hover, footer > a:active, footer > div > a:active {
+    background-color: #6F64F8 ;
+    color: white;
+}
+
+.left, .right {
+    max-width: 1vw;
+    max-height: 2vh;
+}
+
